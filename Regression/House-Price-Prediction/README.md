@@ -25,8 +25,7 @@ This project implements a complete machine learning pipeline to predict resident
 \### 1. Feature Correlations
 
 We used a heatmap to identify which variables most strongly influence house prices.
-
-!\[Correlation Heatmap](./correlation\_heatmap.png)
+<img width="1245" height="248" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/f03c5687-afa7-4328-ac0a-c398f4a553e9" />
 
 
 
@@ -34,7 +33,7 @@ We used a heatmap to identify which variables most strongly influence house pric
 
 Before modeling, we analyzed the distribution of `SalePrice` to check for skewness.
 
-!\[SalePrice Distribution](./three\_chart\_plot.png)
+<img width="811" height="611" alt="three_chart_plot" src="https://github.com/user-attachments/assets/318b8392-f0c2-4f8c-b8ed-672c6e4757d3" />
 
 
 
@@ -42,7 +41,7 @@ Before modeling, we analyzed the distribution of `SalePrice` to check for skewne
 
 This scatter plot shows the relationship between our predicted values and the actual house prices.
 
-!\[Model Results](./regression\_plot.png)
+<img width="1162" height="727" alt="regression_plot" src="https://github.com/user-attachments/assets/0c14856e-0ae0-41b9-9c5c-b8ba2592cf40" />
 
 
 
@@ -81,4 +80,5 @@ The final model was evaluated using \*\*RMSE (Root Mean Square Error)\*\*. The h
 \- Python 3.x
 
 \- pandas, numpy, scikit-learn, matplotlib, seaborn, scipy, missingno
+
 
